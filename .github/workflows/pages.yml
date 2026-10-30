@@ -35,7 +35,7 @@ jobs:
           fi
           mkdir _site
           cp index.html _site/
-          cp -r versao-tecnologica versao-classica _site/
+          cp -r versao-*/ _site/
           find _site -name '*.html' -exec sed -i "s/NUMERO_WHATSAPP/$WHATSAPP_NUMERO/g" {} +
           if grep -rl NUMERO_WHATSAPP _site; then
             echo "::error::Marcador não substituído"; exit 1

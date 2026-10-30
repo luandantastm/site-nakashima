@@ -10,9 +10,12 @@ Decisões em vigor. As substituídas ficam riscadas, com a data da troca.
 - Rodapé com aviso "conteúdo educativo, não substitui consulta" e CRM/RQE, seguindo as regras de publicidade médica do CFM (2026-10-30).
 
 ## Design
-- Duas versões com o mesmo conteúdo (2026-10-30):
+- ~~Duas versões~~ → três versões com o mesmo conteúdo (2026-10-30):
   - `versao-tecnologica/`: escura, Space Grotesk + JetBrains Mono, verde-menta (herdado do tema "mint" do site atual) e violeta, retrato com moldura de HUD e linha de varredura, texto digitado, busca de doenças, FAQ.
   - `versao-classica/`: clara, Lora + Source Sans 3, azul-marinho e verde-azulado, barra de telefones no topo, layout tradicional.
+  - `versao-gamer/`: fantasia sombria (Cinzel + Cormorant Garamond + Inter, dourado e brasa), tela de carregamento com dica de saúde (só na 1ª visita, pulável), menu principal de jogo com navegação por setas, ficha de personagem, árvore de progressão (formação), habilidades (procedimentos), compêndio com busca (doenças), mapa, crônicas (avaliações), conquistas desbloqueáveis e código secreto ↑↑↓↓←→←→BA (2026-10-30).
+  - Na versão gamer, cada rótulo de jogo vem acompanhado do nome comum (ex.: "Habilidades · procedimentos") para pacientes que não jogam (2026-10-30).
+  - Inspiração nos jogos favoritos do Dr. Paulo, mas 100% original: sem nomes, termos, logos ou elementos visuais dos jogos (2026-10-30).
 - `index.html` na raiz é só um seletor entre as versões (`noindex`) (2026-10-30).
 - Botão flutuante do WhatsApp no canto inferior direito, texto "Marque uma consulta", mensagem pronta: "Vim pelo site e gostaria de marcar uma consulta com o Dr. Paulo Nakashima" (2026-10-30).
 

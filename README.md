@@ -1,13 +1,14 @@
 # Site · Dr. Paulo Nakashima, coloproctologista
 
-Duas propostas para o novo site, feitas a partir de [paulonakashima.com](https://www.paulonakashima.com/) e do [perfil no Doctoralia](https://www.doctoralia.com.br/paulo-nakashima/coloproctologista/goiania).
+Três propostas para o novo site, feitas a partir de [paulonakashima.com](https://www.paulonakashima.com/) e do [perfil no Doctoralia](https://www.doctoralia.com.br/paulo-nakashima/coloproctologista/goiania).
 
 | Pasta | Estilo |
 |---|---|
 | `versao-tecnologica/` | Tema escuro, grade e brilhos, texto digitado, busca de doenças, animações ao rolar |
 | `versao-classica/` | Visual claro e tradicional de consultório, tipografia serifada |
+| `versao-gamer/` | Fantasia sombria inspirada em RPGs de ação: menu principal de jogo, ficha de personagem, habilidades, compêndio, conquistas, brasas animadas |
 
-`index.html` na raiz é só uma página para escolher entre as duas.
+`index.html` na raiz é só uma página para escolher entre as versões.
 
 Cada versão é **um único arquivo HTML** (CSS e JS embutidos) mais a foto em `img/`. Para publicar, envie a pasta da versão escolhida para qualquer hospedagem estática.
 
@@ -32,6 +33,7 @@ rm versao-*/index.html && git checkout -- .    # reaplica o filtro
 No ar em **https://luandantastm.github.io/site-nakashima/**:
 - versão tecnológica: `/versao-tecnologica/`
 - versão clássica: `/versao-classica/`
+- versão gamer: `/versao-gamer/`
 
 Cada push na `main` publica de novo (`.github/workflows/pages.yml`). No deploy, o marcador `NUMERO_WHATSAPP` é trocado pelo segredo `WHATSAPP_NUMERO` do repositório (Settings › Secrets and variables › Actions). Para trocar o número: `gh secret set WHATSAPP_NUMERO`.
 

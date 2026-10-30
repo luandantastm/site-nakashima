@@ -1,7 +1,7 @@
 # Pendências
 
 ## Abertas
-- [ ] [alta] Dr. Paulo escolher entre a versão tecnológica e a clássica (ou pedir uma mistura).
+- [ ] [alta] Dr. Paulo escolher entre a versão tecnológica, a clássica e a gamer (ou pedir uma mistura).
 - [ ] [média] Validar o conteúdo com o Dr. Paulo: horários, se quer mostrar preços, os 2 serviços extras do Doctoralia que não aparecem detalhados, textos dos procedimentos e FAQ.
 - [ ] [média] Definir o domínio definitivo. As duas versões já estão no GitHub Pages (luandantastm.github.io/site-nakashima); paulonakashima.com ainda aponta para a DocPlanner. Para usar o domínio próprio: configurar custom domain no Pages e trocar o DNS.
 - [ ] [média] Revisão final de conformidade com as regras de publicidade médica do CFM.
