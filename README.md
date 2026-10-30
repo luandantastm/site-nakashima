@@ -27,7 +27,13 @@ git config filter.whatsapp.smudge 'n=$(git config nakashima.whatsapp); if [ -n "
 rm versao-*/index.html && git checkout -- .    # reaplica o filtro
 ```
 
-> Publicando direto do GitHub (ex.: GitHub Pages), o link sairia com o marcador. Publique a partir da cópia local, ou troque `NUMERO_WHATSAPP` pelo número na hora de subir.
+## Publicação (GitHub Pages)
+
+No ar em **https://luandantastm.github.io/site-nakashima/**:
+- versão tecnológica: `/versao-tecnologica/`
+- versão clássica: `/versao-classica/`
+
+Cada push na `main` publica de novo (`.github/workflows/pages.yml`). No deploy, o marcador `NUMERO_WHATSAPP` é trocado pelo segredo `WHATSAPP_NUMERO` do repositório (Settings › Secrets and variables › Actions). Para trocar o número: `gh secret set WHATSAPP_NUMERO`.
 
 ## Rotina de trabalho (Claude Code)
 

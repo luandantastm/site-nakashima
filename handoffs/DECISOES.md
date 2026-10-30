@@ -18,6 +18,9 @@ Decisões em vigor. As substituídas ficam riscadas, com a data da troca.
 
 ## Infra / Git
 - 100% HTML: cada versão é um único `index.html` com CSS/JS embutidos + `img/` (2026-10-30).
-- Repositório GitHub `site-nakashima`, **privado**, branch `main`, as duas versões em pastas no mesmo repo (2026-10-30).
+- ~~Repositório GitHub `site-nakashima`, privado~~ (substituída em 2026-10-30).
+- Repositório GitHub `site-nakashima`, **público**, branch `main`, as duas versões em pastas no mesmo repo (2026-10-30).
+- Publicação no GitHub Pages via GitHub Actions (`.github/workflows/pages.yml`) a cada push na `main`: https://luandantastm.github.io/site-nakashima/ . Só `index.html` e as pastas das versões vão para o ar (handoffs, skills e README não) (2026-10-30).
+- No deploy, o número do WhatsApp vem do segredo `WHATSAPP_NUMERO` do repositório e substitui `NUMERO_WHATSAPP` nos .html. Se o número mudar, atualizar o segredo **e** o `git config nakashima.whatsapp` local (2026-10-30).
 - Número do WhatsApp fora do GitHub: marcador `NUMERO_WHATSAPP` no repo, filtro git `whatsapp` (clean/smudge) com o número em `git config nakashima.whatsapp`, mais hook `pre-commit` que bloqueia o número (2026-10-30).
 - Continuidade via skills `/retomar` e `/fechar-dia` em `.claude/skills/` e arquivos em `handoffs/` (2026-10-30).
