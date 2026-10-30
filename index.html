@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Paulo Nakashima · Versões do site</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#f4f6f9;--card:#fff;--text:#1f2a37;--muted:#5b6878;--line:#e3e8ee;--accent:#2b8a83}
+@media (prefers-color-scheme:dark){:root{--bg:#0b0f18;--card:#121826;--text:#e9eef7;--muted:#8e9ab0;--line:#232c3d;--accent:#41e6c3}}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100vh;display:grid;place-items:center;padding:32px 16px}
+main{max-width:760px;width:100%}
+h1{font-size:28px;margin-bottom:6px}
+p{color:var(--muted);margin-bottom:28px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+a{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;transition:border-color .2s,transform .2s}
+a:hover{border-color:var(--accent);transform:translateY(-2px)}
+b{display:block;font-size:19px;margin-bottom:6px}
+span{color:var(--muted);font-size:15px}
+@media (max-width:600px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+  <h1>Dr. Paulo Nakashima</h1>
+  <p>Duas propostas para o novo site. Escolha uma para visualizar.</p>
+  <div class="grid">
+    <a href="versao-tecnologica/index.html"><b>Versão tecnológica →</b><span>Tema escuro, animações, busca de doenças e visual de interface.</span></a>
+    <a href="versao-classica/index.html"><b>Versão clássica →</b><span>Visual claro e tradicional de consultório médico.</span></a>
+  </div>
+</main>
+</body>
+</html>
