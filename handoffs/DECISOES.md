@@ -27,3 +27,5 @@ Decisões em vigor. As substituídas ficam riscadas, com a data da troca.
 - No deploy, o número do WhatsApp vem do segredo `WHATSAPP_NUMERO` do repositório e substitui `NUMERO_WHATSAPP` nos .html. Se o número mudar, atualizar o segredo **e** o `git config nakashima.whatsapp` local (2026-10-30).
 - Número do WhatsApp fora do GitHub: marcador `NUMERO_WHATSAPP` no repo, filtro git `whatsapp` (clean/smudge) com o número em `git config nakashima.whatsapp`, mais hook `pre-commit` que bloqueia o número (2026-10-30).
 - Continuidade via skills `/retomar` e `/fechar-dia` em `.claude/skills/` e arquivos em `handoffs/` (2026-10-30).
+- Login do `gh` com permissão `workflow`, necessária para enviar alterações em `.github/workflows/` (2026-10-30).
+- Capturas de tela para conferência: Playwright local (`playwright-core` do cache do npx + Chromium em `~/.cache/ms-playwright`). O Chrome do MCP Playwright não está instalado (2026-10-30).
