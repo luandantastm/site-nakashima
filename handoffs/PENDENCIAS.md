@@ -1,7 +1,6 @@
 # Pendências
 
 ## Abertas
-- [ ] [alta] Confirmar o número do WhatsApp: foi informado com 8 dígitos após o DDD 62. Celulares no Brasil têm 9 dígitos; se o certo for com o 9 na frente, atualizar `git config nakashima.whatsapp`, os links locais e o segredo `WHATSAPP_NUMERO` no GitHub.
 - [ ] [alta] Dr. Paulo escolher entre a versão tecnológica e a clássica (ou pedir uma mistura).
 - [ ] [média] Validar o conteúdo com o Dr. Paulo: horários, se quer mostrar preços, os 2 serviços extras do Doctoralia que não aparecem detalhados, textos dos procedimentos e FAQ.
 - [ ] [média] Definir o domínio definitivo. As duas versões já estão no GitHub Pages (luandantastm.github.io/site-nakashima); paulonakashima.com ainda aponta para a DocPlanner. Para usar o domínio próprio: configurar custom domain no Pages e trocar o DNS.
@@ -10,3 +9,4 @@
 - [ ] [baixa] Depois da escolha: favicon/ícone definitivo, imagem de compartilhamento (og:image com URL absoluta), Google Analytics ou equivalente, se ele quiser.
 
 ## Concluídas
+- [x] Confirmar o número do WhatsApp: o certo tem o 9 na frente. Atualizados os links locais, o `git config nakashima.whatsapp` e o segredo `WHATSAPP_NUMERO` (2026-10-30).
