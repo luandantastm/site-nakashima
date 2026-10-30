@@ -35,3 +35,4 @@ Decisões em vigor. As substituídas ficam riscadas, com a data da troca.
 - Continuidade via skills `/retomar` e `/fechar-dia` em `.claude/skills/` e arquivos em `handoffs/` (2026-10-30).
 - Login do `gh` com permissão `workflow`, necessária para enviar alterações em `.github/workflows/` (2026-10-30).
 - Capturas de tela para conferência: Playwright local (`playwright-core` do cache do npx + Chromium em `~/.cache/ms-playwright`). O Chrome do MCP Playwright não está instalado (2026-10-30).
+- Arquivos compactados (`*.zip`, `*.rar`, `*.7z`, `*.tar*`, `*.tgz`) ficam fora do git (`.gitignore` + hook), porque podem levar cópias dos HTML com o número (2026-10-30).

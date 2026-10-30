@@ -46,7 +46,8 @@ Mínimo obrigatório: **handoff do dia + decisões consolidadas + commit + push.
    - Se o hook bloquear, corrija o arquivo apontado. **Nunca** use `--no-verify`.
 
 6. **Commit e push**
-   - `git add -A` e confira `git status`.
+   - Antes de adicionar, rode `git status --short` e olhe os arquivos `??` (novos). **Não inclua arquivos que você não criou nesta sessão** (zips, exports, rascunhos do usuário): pergunte ao usuário. Os `.html` locais têm o número real; qualquer cópia deles fora do filtro (zip, pasta duplicada, `.htm`, `.txt`) vaza o número.
+   - Só então `git add -A` e confira `git status` de novo.
    - Mensagem em português, primeira linha ≤ 72 caracteres, resumindo o dia. Exemplo: `Fecha dia 2026-10-30: depoimentos e ajustes no mobile`. No corpo, liste as mudanças principais. Siga as regras de atribuição de commit em vigor na sessão.
    - `git push` (se não houver upstream: `git push -u origin main`).
    - Se o push falhar por divergência, faça `git pull --rebase` e tente de novo; se houver conflito, pare e explique ao usuário.
