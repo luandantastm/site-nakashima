@@ -9,6 +9,7 @@
 - [ ] [média] Testar num celular de verdade o botão do WhatsApp (abre a conversa com a mensagem pronta?) e a versão gamer (desempenho das brasas animadas). Os testes até agora foram em navegador sem interface.
 - [ ] [baixa] Otimizar a foto (`img/paulo-nakashima.jpg`, 1280×1280, ~340 KB, repetida nas 3 versões): não havia ferramenta de redimensionamento no ambiente.
 - [ ] [baixa] Depois da escolha: favicon/ícone definitivo, imagem de compartilhamento (og:image com URL absoluta), Google Analytics ou equivalente, se ele quiser.
+- [ ] [baixa] Robô de WhatsApp que responde sozinho: decidir se vale fazer. Recomendação: começar pelas mensagens automáticas do app WhatsApp Business (grátis); se o volume justificar, robô próprio na API oficial da Meta (projeto separado, precisa de servidor). Antes: conta comercial na Meta e decisão sobre usar o mesmo número da atendente. Detalhes no handoff de 2026-10-30, sessão 5.
 
 ## Concluídas
 - [x] Publicar as versões no GitHub Pages: https://luandantastm.github.io/site-nakashima/ (2026-10-30).
