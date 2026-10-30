@@ -18,6 +18,12 @@ Decisões em vigor. As substituídas ficam riscadas, com a data da troca.
   - Inspiração nos jogos favoritos do Dr. Paulo, mas 100% original: sem nomes, termos, logos ou elementos visuais dos jogos (2026-10-30).
 - `index.html` na raiz é só um seletor entre as versões (`noindex`) (2026-10-30).
 - Botão flutuante do WhatsApp no canto inferior direito, texto "Marque uma consulta", mensagem pronta: "Vim pelo site e gostaria de marcar uma consulta com o Dr. Paulo Nakashima" (2026-10-30).
+- O botão flutuante abre um painel "Como podemos ajudar?" antes de ir ao WhatsApp, com mensagens diferentes para cada opção, todas para o mesmo número (2026-10-30):
+  - Marcar consulta → assunto: hemorroidas, fissura anal, fístula ou abscesso, cisto pilonidal, colonoscopia, Crohn/colite/intestino irritável, "prefiro explicar na consulta" (mensagem padrão).
+  - Retorno ou pós-operatório.
+  - Falar com atendente (dúvidas, valores, horários).
+  - Os links do painel são montados em JS a partir do link do botão; por isso o número aparece uma vez só por botão e o filtro git continua funcionando. Sem JS, o botão abre direto com a mensagem padrão.
+  - Os botões "Marcar consulta" do meio da página continuam indo direto ao WhatsApp com a mensagem padrão.
 
 ## Infra / Git
 - 100% HTML: cada versão é um único `index.html` com CSS/JS embutidos + `img/` (2026-10-30).
